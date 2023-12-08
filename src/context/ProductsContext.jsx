@@ -39,6 +39,7 @@ export function ProductsProvider({ children }) {
 
     const deleteProduct = async (store, id) => {
         try {
+            console.log(id);
             const res = await deleteProductRequest(store, id);
             if (res.status) {
                 setProducts(products.filter(product => product._id != id))
