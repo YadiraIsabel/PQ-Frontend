@@ -74,7 +74,7 @@ export default function LoginPage() {
           <button disabled={!captchaValue} type="submit" className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-zinc-700 hover:border-transparent rounded-full'><IoLogIn size={30} /></button>
           
           <ReCaptcha
-            sitekey='6LdrbiQpAAAAAGJF-fAe01T866mZa3mBLFpDtmNY'
+            sitekey='6LfNgyopAAAAAM1KQetkvMmZAIJ3XHyXGoObeo_5'
             onChange={(value) => setCaptchaValue(value)} />
         </form>
         
