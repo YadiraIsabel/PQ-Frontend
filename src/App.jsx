@@ -37,6 +37,7 @@ function App() {
                     <Route path='/:store/products/:id' element={<ProductsFormPage />} />
                     <Route path='/stores' element={<StorePage />} />
                     <Route path='/add-store' element={<StoreFormPage />} />
+                    <Route path='/stores/:id' element={<StoreFormPage />} />
                     <Route path='/counts/:id' element={<CountFormPage />} />
                     <Route path='/counts' element={<CountPage />} />
                     <Route path='/add-Count' element={<CountFormPage />} />

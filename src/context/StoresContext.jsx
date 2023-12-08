@@ -18,7 +18,7 @@ export function StoresProvider({ children }) {
         try {
             console.log(store);
             const res = await createStoreRequest(store)
-            
+
         } catch (error) {
             console.log(error);
         }
@@ -58,11 +58,10 @@ export function StoresProvider({ children }) {
 
     const updateStore = async (id, store) => {
         try {
-            
             await updateStoreRequest(id, store);
         } catch (error) {
             console.log(error)
-        }   
+        }
     }
 
     return (
